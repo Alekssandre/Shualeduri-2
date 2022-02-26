@@ -46,19 +46,13 @@
     font-size: 9.8em;
     color: #1c1c1c49;
   }
-  .about-text-2 {
-    position: absolute;
-    top: 5.5rem;
-    font-size: 2em;
-    color: #373737;
-  }
   .user-info {
     flex-direction: column;
     align-items: center;
   }
   .user-img {
     height: 450px;
-    width: 500px;
+    width: 300px;
     max-width: 100%;
   }op
   .slider-item {
@@ -83,12 +77,6 @@
   .details-text-1 {
     font-size: 2em;
   }
-  .details-text-2 {
-    font-size: 3em;
-  }
-  .details-text-3 {
-    font-size: 1.3em;
-  }
   .social-icons {
     align-items: center;
     margin: 1rem 0;
@@ -105,4 +93,89 @@
   .satisfied-div hr {
     border: 1px solid #e93656;
     border-radius: 1rem;
+  }
+  .section-1-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "user-text"
+      "user-img"
+      "user-skills";
+    padding: 1em;
+    font-family: "Glacial Indifference";
+    margin: 5em;
+    align-items: center;
+    justify-content: center;
+  }
+  .user-text {
+    flex-direction: column;
+    align-items: center;
+    grid-area: user-text;
+    padding: 1em;
+  }
+  .user-text-headings {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0.5em;
+  }
+  .user-text-headings h4 {
+    color: #daae19;
+    font-size: 65%;
+  }
+  .user-text-p-wrapper p {
+    text-align: center;
+  }
+  .hire-btn-1 {
+    display: none;
+  }
+  .reccomend-img {
+    grid-area: user-img;
+    width: 80%;
+    min-height: 400px;
+    margin: 0 auto;
+  }
+  .reccomend-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0.5em;
+    gap: 1em;
+    font-family: "Glacial Indifference";
+  }
+  #progress-percentage {
+    font-size: 1.3em;
+  }
+  .progress-bar {
+    width: 260px;
+    height: 0.5em;
+    border-radius: 2em;
+    background: #a5a0a1;
+  }
+  .progress-bar-inner {
+    position: relative;
+    height: 100%;
+    width: 1%;
+    border-radius: 2em;
+    background: #e93656;
+    transition: all 0.5s;
+  }
+  .progress-bar-inner span {
+    position: absolute;
+    top: -25px;
+    left: 10em;
+    font-size: 1.3em;
+    color: #e93656;
+  }
+  .skills-social img {
+    width: 2em;
+    height: 2em;
+    margin: 0 0.5em;
+  }
+  .skills-social img:hover {
+    background: #15263e;
   }
