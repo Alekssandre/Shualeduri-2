@@ -1,5 +1,4 @@
 @media (min-width: 1024px) {
-    /* header */
     .user-info {
       position: relative;
       flex-direction: row;
@@ -29,7 +28,6 @@
       border: 3px solid #e93656;
       margin-top: 1rem;
     }
-    /* main */
     .section-1-wrapper {
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr;
@@ -65,7 +63,7 @@
     .hire-btn-2 {
       display: none;
     }
-    .skills {
+    .spref {
       align-items: flex-start;
       gap: 3em;
     }
@@ -181,8 +179,4 @@
       grid-template-columns: repeat(4, 290px);
     }
   }
-  © 2022 GitHub, Inc.
-  Terms
-  Privacy
-  Security
   
